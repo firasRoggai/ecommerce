@@ -1,0 +1,30 @@
+body {
+  overflow: auto;
+}
+
+.NavbarCustomized {
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  float: none;
+  flex-direction: row;
+  background-color: #131921;
+  align-items: center;
+  width: 100%;
+  min-width: 1260px;
+  justify-content: space-around;
+}
+
+.NavbarLink {
+  color: #3f51b5;
+  font-size: larger;
+}
+
+.GreetingTxt {
+  color: #b488f9;
+  font-size: larger;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 10px;
+}

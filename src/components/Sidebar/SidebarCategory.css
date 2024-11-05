@@ -1,0 +1,29 @@
+.SidebarHeading {
+  color: #7634b3;
+}
+
+.SidebarListItem {
+  color: black;
+  list-style: none;
+}
+
+.SidebarListItem:hover {
+  color: grey;
+}
+
+.SidebarList {
+  padding-left: 10px;
+  cursor: pointer;
+  font-size: large;
+  color: black;
+}
+
+.offerTxt {
+  font-size: medium;
+  font-weight: 600;
+  color: rgb(133, 31, 133);
+}
+
+.offerTime {
+  color: rgb(151, 21, 21);
+}

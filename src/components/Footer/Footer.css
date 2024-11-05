@@ -1,0 +1,86 @@
+body {
+  overflow: auto;
+}
+
+h5,
+li {
+  color: white;
+  list-style: square;
+}
+
+h6 {
+  color: rgb(165, 159, 148);
+  font-size: larger;
+}
+
+ul {
+  padding-left: inherit;
+  width: fit-content;
+}
+
+hr {
+  border: 1px solid #897db9;
+  width: 100%;
+}
+
+form {
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.ListLink {
+  color: white;
+  padding: 0;
+}
+
+.ListLink:hover {
+  color: rgb(165, 150, 150);
+}
+
+.inputCustom {
+  width: 200px;
+}
+
+.FooterCustomized {
+  display: flex;
+  position: static;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  height: max-content;
+  width: 100%;
+  min-width: 1260px;
+
+  align-items: center;
+  align-content: center;
+  text-align: justify;
+
+  flex-direction: column;
+
+  padding: 20px 20px 0 20px;
+  margin-top: 1%;
+  background-color: #0b0b19;
+  font-family: sans-serif;
+}
+
+.row {
+  width: 100%;
+}
+
+.SocialMediaImg {
+  border-radius: 50%;
+}
+
+.SocialMediaDiv {
+  margin: 0 20px;
+}
+
+.SocialMedia {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 20px 0;
+}
